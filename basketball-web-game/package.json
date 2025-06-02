@@ -1,0 +1,21 @@
+{
+  "name": "basketball-web-game",
+  "version": "1.0.0",
+  "description": "A web-based basketball shooting game",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./public -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "basketball",
+    "game",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.15.0",
+    "http-server": "^14.1.1"
+  }
+}
